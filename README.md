@@ -41,7 +41,7 @@ To execute the planner, use the following format from the command line:
     
     *   astar: For optimal search (uses the A\* algorithm).
         
-    *   gbfs: For satisficing search (uses Greedy Best-First Search).
+    *   best: For satisficing search (uses Greedy Best-First Search).
         
 * `<problem_file>`  : The path to the PDDL problem file you want to solve.
     
