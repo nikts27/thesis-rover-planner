@@ -71,7 +71,19 @@ The source code is organized into several key files:
     
 *   solution.h: Functions for reconstructing the plan from the solution node and writing it to a file.
     
-*   rover\_verify.c: A standalone program to verify the correctness of a generated solution plan.    
+*   rover\_verify.c: A standalone program to verify the correctness of a generated solution plan.
+
+## Acknowledgments
+
+This project utilizes code from the following excellent open-source libraries to implement core data structures:
+
+* **UTHASH:** A powerful and easy-to-use hash table implementation for C structures. It is used to manage the closed set for the duplicate detection mechanism.
+    * Source: (https://github.com/troydhanson/uthash)
+
+* **Bloom Filter:** The Bloom filter implementation, used as a fast, first-level check for duplicate states, is based on libblom.
+    * Source: (https://github.com/jvirkki/libbloom)
+
+---
 
 📄 License
 ----------
